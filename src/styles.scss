@@ -28,7 +28,7 @@ html {
   }
 
   img {
-    width: 60%;
+    width: 250px;
   }
 
   .button-group {
@@ -43,8 +43,9 @@ html {
 
       background: #d2b3a8;
       color: #fff;
-      text-transform: uppercase
-      ;
+      text-transform: uppercase;
+
+      z-index: 100;
     }
   }
 }
