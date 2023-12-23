@@ -1,0 +1,65 @@
+// Global stylings
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: #fafafa;
+  color: #d2b3a8;
+}
+
+
+// App stylings
+.app-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  width: 100dvw;
+  height: 100dvh;
+
+  .title {
+    font-size: 1.75rem;
+    font-weight: 600;
+  }
+
+  img {
+    width: 60%;
+  }
+
+  .button-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    button {
+      padding: .5rem 1rem;
+      border: none;
+      border-radius: .35rem;
+
+      background: #d2b3a8;
+      color: #fff;
+      text-transform: uppercase
+      ;
+    }
+  }
+}
+
+.attempts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .25rem;
+  position: absolute;
+  bottom: 2rem;
+
+  width: 100%;
+
+  .sub-text {
+    font-size: .5rem;
+  }
+}
