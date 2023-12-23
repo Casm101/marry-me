@@ -36,6 +36,7 @@ function App() {
           <>
             <p className="title">Hurray!!</p>
             <img src="love.gif" alt="" />
+            <p className="description">See you in a couple of weeks :P</p>
           </>
           :
           <>
